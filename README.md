@@ -1,25 +1,4 @@
 # Wallpaper-Change
 A Python script which chooses an image at random from a folder named 'Wallpapers' and sets it as desktop background. Then it sends the image to another folder named 'Applied', which is located in the 'Wallpapers' folder itself, so that the background is not repeated. Once all the images from 'Wallpapers' folder have been applied, it moves all the images from the 'Applied' folder back to 'Wallpapers' folder, and repeats the cycle. The additional GUI feature lets you decide when to change the wallpaper!
 
-For the script (.py file) to run flawlessly, it is advised it be converted to an executable file (.exe file) first. To do this, follow the steps mentioned below:
-Step 1: We will be using the PyInstaller library to convert the .py file to .exe. So to install PyInstaller library, open your Command Prompt and execute the command
-pip install pyinstaller.
-Step 2: Once installed, change the working directory to the directory containing the script (.py file).
-Step 3: Execute the following command
-pyinstaller --onefile -w wallpaper.py
-Step 4: Open the 'dist' folder which gets created after executing the above command. It would contain the .exe file of your script.
-(OPTIONAL) Step 5: Cut/Copy the .exe file and paste it wherever you wish. You can also delete the rest of the folders and files that were created.
-
-Now that we have our script as an executable file, lets see how to run our script as soon as the system starts!
-
-To run this script at start-up, follow the given steps:
-Step 1: Open Task Scheduler.
-Step 2: Click on 'Create Task' which is located at right side of the window under 'Actions'.
-Step 3: Under General tab, give the name of your task. Everything else is optional.
-Step 4: Under Triggers tab, click on 'New' to open the 'New Trigger' window.
-Step 5: Select Trigger as 'On Startup' if you want the script to run only after your system reboots from a proper shutdown.(Shutdown/Restart). 
-Select Trigger as'On Workstation Unlock' if you want the script to run after your system reboots after Hibernation or Sleep. The script will also run after you lock and unlock your system manually.
-Step 6: Under the Actions tab, click on 'New' to open the 'New Action' window.
-Step 7: Select Action as 'Start a program' and then click on 'Browse'. Browse to the directory containing the .exe file of the script and select the file.
-Step 8: Under the Conditions tab, Uncheck the 'Start the task only if the computer is on AC power' checkbox.
-Step 9: Do the rest of the settings according to your convenience. Only the above mentioned steps are important.
+To know how to run your script at startup, refer Steps.txt!
