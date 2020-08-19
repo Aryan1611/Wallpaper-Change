@@ -1,7 +1,7 @@
 # Wallpaper-Change
 A Python script which chooses an image at random from a folder named 'Wallpapers' and sets it as desktop background. Then it sends the image to another folder named 'Applied', which is located in the 'Wallpapers' folder itself, so that the background is not repeated. Once all the images from 'Wallpapers' folder have been applied, it moves all the images from the 'Applied' folder back to 'Wallpapers' folder, and repeats the cycle. The additional GUI feature lets you decide when to change the wallpaper!
 
-For the script (.py file) to run flawlessly, it is advised it be converted to an executable file (.exe file) first. To do this, follow the steps mentioned below.
+For the script (.py file) to run flawlessly, it is advised it be converted to an executable file (.exe file) first. To do this, follow the steps mentioned below:
 Step 1: We will be using the PyInstaller library to convert the .py file to .exe. So to install PyInstaller library, open your Command Prompt and execute the command
 pip install pyinstaller.
 Step 2: Once installed, change the working directory to the directory containing the script (.py file).
