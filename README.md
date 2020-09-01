@@ -3,4 +3,4 @@ A Python script which chooses an image at random from a folder named 'Wallpapers
 
 To know how to run your script at startup, refer Steps.txt!
 
-If your path of the 'Wallpapers' folder is same as mine, directly download the .exe file
+If your path of the 'Wallpapers' folder is same as mine, directly download the .exe file given below.
